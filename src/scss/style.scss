@@ -1,4 +1,4 @@
-@import '../../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss';
+@import '~hamburgers/_sass/hamburgers/hamburgers.scss';
 
 html {
   box-sizing: border-box;
@@ -251,7 +251,7 @@ body {
         to right,
         #acb6e5,
         #74ebd5
-      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      );
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -259,15 +259,15 @@ body {
   }
   @media (max-width: 767px) {
     &__heading {
-      font-size: 6rem;
+      font-size: 3rem;
     }
     &__text {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
   @media (min-width: 768px) and (max-width: 1024px) {
     &__heading {
-      font-size: 7rem;
+      font-size: 6rem;
     }
     &__text {
       font-size: 1.5rem;

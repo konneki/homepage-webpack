@@ -1,4 +1,4 @@
-@import '../../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss';
+@import '~hamburgers/_sass/hamburgers/hamburgers.scss';
 
 html {
   box-sizing: border-box;
@@ -206,7 +206,7 @@ body {
   }
   @media (max-width: 767px) {
     &__heading {
-      font-size: 4rem;
+      font-size: 3rem;
     }
     &__subheading {
       font-size: 1rem;
