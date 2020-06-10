@@ -1,12 +1,14 @@
+import moment from 'moment';
+
 /* place your code below */
 
-(() => {
-  const age = () => new Date().getFullYear() - 1996;
-  console.log(
-    `Hello! My name is Daniel and I'm ${age()} y/o frontend dev. It is nice to see you in the console.`
-  );
-  console.log(`Make yourself at home. Mi casa, es tu casa.`);
-})();
+console.log(
+  `Hello! My name is Daniel and I was born ${moment(
+    '19961117',
+    'YYYYMMDD'
+  ).fromNow()}. Imma frontend dev. It is nice to see you in the console.`
+);
+console.log(`Make yourself at home. Mi casa, es tu casa.`);
 
 // Look for .hamburger
 var hamburger = document.querySelector('.hamburger');
@@ -34,8 +36,10 @@ if (visitorName != '') {
   console.log(sad);
 };
 */
+
 const button = document.querySelector('.hamburger--js');
 button.addEventListener('click', () => {
   const nav = document.querySelector('.navigation--js');
   nav.classList.toggle('navigation--available');
 });
+console.log(`It is ${moment().format('dddd')} today.`);
