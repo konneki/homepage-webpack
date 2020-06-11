@@ -1,0 +1,34 @@
+.code {
+  background-color: #292929;
+  border-radius: 5px;
+  color: #ff3589;
+  padding: 1px 5px;
+  line-height: 1.7rem;
+}
+
+.attribute {
+  &-yellow {
+    color: #ffff70;
+  }
+  &-green {
+    color: #7ddd7d;
+  }
+  &-white {
+    color: #d4d4d4;
+  }
+  &-orange {
+    color: #ff8800;
+  }
+  &-red {
+    color: #fd4d17;
+  }
+  &-purple {
+    color: #c453f1;
+  }
+  &-cyan {
+    color: #67ccfa;
+  }
+  &-grey {
+    color: #808080;
+  }
+}

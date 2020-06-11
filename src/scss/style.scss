@@ -1,4 +1,6 @@
+@import '../scss/modules/hamburger-settings.scss';
 @import '~hamburgers/_sass/hamburgers/hamburgers.scss';
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins:wght@400;500&display=swap');
 
 html {
   box-sizing: border-box;
@@ -210,12 +212,6 @@ body {
     flex-direction: column;
     height: 100vh;
   }
-}
-
-.hamburger {
-  position: fixed;
-  right: 0;
-  top: 0;
 }
 
 .welcome {

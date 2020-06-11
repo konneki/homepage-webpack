@@ -1,4 +1,8 @@
+@import '../scss/modules/hamburger-settings.scss';
 @import '~hamburgers/_sass/hamburgers/hamburgers.scss';
+@import '../scss/modules/code.scss';
+@import '../scss/modules/terminal.scss';
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins:wght@400;500&display=swap');
 
 html {
   box-sizing: border-box;
@@ -63,49 +67,6 @@ body {
   }
 }
 
-.code {
-  background-color: #292929;
-  border-radius: 5px;
-  color: #ff3589;
-  padding: 1px 5px;
-  line-height: 1.7rem;
-}
-
-.attribute {
-  &-yellow {
-    color: #ffff70;
-  }
-  &-green {
-    color: #7ddd7d;
-  }
-  &-white {
-    color: #d4d4d4;
-  }
-  &-orange {
-    color: #ff8800;
-  }
-  &-red {
-    color: #fd4d17;
-  }
-  &-purple {
-    color: #c453f1;
-  }
-  &-cyan {
-    color: #67ccfa;
-  }
-  &-grey {
-    color: #808080;
-  }
-}
-
-.terminal {
-  background-color: #000;
-  color: #fff;
-  padding: 1px 5px;
-  line-height: 1.7rem;
-  font-family: 'Courier Prime', monospace;
-}
-
 .list {
   margin: 0;
   margin-bottom: 8px;
@@ -142,12 +103,6 @@ body {
     flex-direction: column;
     height: 100vh;
   }
-}
-
-.hamburger {
-  position: fixed;
-  right: 0;
-  top: 0;
 }
 
 .notes {
