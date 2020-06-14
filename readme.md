@@ -1,18 +1,13 @@
 ![cover](https://cotenfrontend.pl/img/cover.png)
 
-# WTF Webpack Starter Kit 
+# Homepage | Notespage | Homework from WTF Co Ten Frontend
+> This is a website that I design and code from the knowledge I get on WTF co ten frontend.
 
-Simple toolkit for your static websites development.
+## Homepage
+This site has very short section describing me, the guy who did this website. It also includes a simple form with a form checker nested.
 
-## How to use it?
+## Notespage
+WTF has 13 parts, every for every week. In every week there are a tons of lessons, links and important notes to concider. This site is like my notebook when I take notes.
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
-
-## Available scripts
-
-`npm run start` - runs development mode
-
-`npm run build` - runs build process for production
-
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
-
+## Homework
+As mentioned before there are 13 weeks and at the end of every week we get a lot of homework to do.
