@@ -1,4 +1,4 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](src/assets/img/readme_picture.png)
 
 # Homepage | Notespage | Homework from WTF Co Ten Frontend
 > This is a website that I design and code from the knowledge I get on WTF co ten frontend.
