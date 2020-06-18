@@ -1,5 +1,6 @@
 @import '../scss/modules/hamburger-settings.scss';
 @import '~hamburgers/_sass/hamburgers/hamburgers.scss';
+@import '../scss/modules/navigation.scss';
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins:wght@400;500&display=swap');
 
 html {
@@ -18,11 +19,6 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #2c2c2c;
   font-weight: 500;
-}
-
-@mixin backdropBlur {
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
 }
 
 .about {
@@ -188,32 +184,6 @@ body {
   row-gap: 50px;
 }
 
-.navigation {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 56px;
-  @include backdropBlur();
-  &--available {
-    display: none;
-  }
-  &__fixed {
-    position: fixed;
-    background-color: rgba(255, 255, 255, 0.2);
-    top: 0;
-    width: 100vw;
-    z-index: 666;
-  }
-  &__link {
-    text-decoration: none;
-    color: #2c2c2c;
-  }
-  @media (max-width: 767px) {
-    flex-direction: column;
-    height: 100vh;
-  }
-}
-
 .welcome {
   display: flex;
   height: 100vh;
@@ -243,11 +213,7 @@ body {
         #acb6e5,
         #74ebd5
       ); /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(
-        to right,
-        #acb6e5,
-        #74ebd5
-      );
+      background: linear-gradient(to right, #acb6e5, #74ebd5);
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color: transparent;

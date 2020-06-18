@@ -2,6 +2,7 @@
 @import '~hamburgers/_sass/hamburgers/hamburgers.scss';
 @import '../scss/modules/code.scss';
 @import '../scss/modules/terminal.scss';
+@import '../scss/modules/navigation.scss';
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins:wght@400;500&display=swap');
 
 html {
@@ -20,11 +21,6 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #2c2c2c;
   font-weight: 500;
-}
-
-@mixin backdropBlur {
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
 }
 
 .main {
@@ -76,32 +72,6 @@ body {
     @media (max-width: 767px) {
       font-size: 0.8rem;
     }
-  }
-}
-
-.navigation {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 56px;
-  @include backdropBlur();
-  &--available {
-    display: none;
-  }
-  &__fixed {
-    position: fixed;
-    background-color: rgba(255, 255, 255, 0.2);
-    top: 0;
-    width: 100vw;
-    z-index: 666;
-  }
-  &__link {
-    text-decoration: none;
-    color: #2c2c2c;
-  }
-  @media (max-width: 767px) {
-    flex-direction: column;
-    height: 100vh;
   }
 }
 
