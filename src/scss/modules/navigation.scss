@@ -1,0 +1,29 @@
+@mixin backdropBlur {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 56px;
+  @include backdropBlur();
+  &--available {
+    display: none;
+  }
+  &__fixed {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.2);
+    top: 0;
+    width: 100vw;
+    z-index: 666;
+  }
+  &__link {
+    text-decoration: none;
+    color: #2c2c2c;
+  }
+  @media (max-width: 767px) {
+    flex-direction: column;
+    height: 100vh;
+  }
+}
